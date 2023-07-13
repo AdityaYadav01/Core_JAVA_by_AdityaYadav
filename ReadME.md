@@ -1,6 +1,6 @@
 # Core JAVA 
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/AdityaYadav01/DSA_using_Java_AdityaYadav)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/AdityaYadav01/Core_JAVA_by_AdityaYadav)
 
 
 This Repository contains all types of [**Core JAVA**](https://www.programiz.com/java-programming) questions with solutions using [**JAVA**](https://en.wikipedia.org/wiki/Java_(programming_language)) Programming Language.
