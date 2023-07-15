@@ -10,7 +10,7 @@ It also includes basics Java questions like [**if-else statements**](https://www
 
 ## Table of Contents
 
-- [Basics of Java](https://github.com/AdityaYadav01/DSA-Using-Java-Aditya-Yadav/tree/master/Basics%20of%20Java/src/basics)
+- [Basics of Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Basics%20of%20JAVA/src)
 - [Control Statements in Java](https://github.com/AdityaYadav01/DSA-Using-Java-Aditya-Yadav/tree/master/Control%20Statements%20in%20Java/src)
 - [Switch Statements](https://github.com/AdityaYadav01/DSA-Using-Java-Aditya-Yadav/tree/master/SwitchStatements)
 - [Methods/Functions in Java](https://github.com/AdityaYadav01/DSA_using_Java_AdityaYadav/tree/master/MethodsOrFunctions/src)
