@@ -20,13 +20,13 @@ public class TypeCasting {
         byte b = (byte)(a);  // It will perform 258 % 256 = 2.
         System.out.println(b);
 
-    //Example 3. Automatic Type Conversion
+    //Example 3. Automatic Type Promotion in Expressions
         byte b1 = 127;
         byte b2 = 70;
         byte b3 = 100;
 
         int result = b1*b2/b3;
-        // Hence, Automatic Type Conversion happened here because the destination type(int) is larger than source type(byte).
+        // Hence, Automatic Type Promotion took place which converted byte to int type.
         System.out.println(result);
 
     //Example 3.1
@@ -34,7 +34,7 @@ public class TypeCasting {
         System.out.println("The ASCII value of a is " + number);  // It will print the ASCII value of 'a'.
 
 
-/* There are some rule for type conversion:-
+/* There are some rule for Automatic Type Promotion :-
 * 1. Java will automatically convert byte, short and char operand to int type while evaluating any expressions.
 * 2. If any one of the operand is float, double or long. Then, the whole expression is converted to float, double and long respectively. */
 
