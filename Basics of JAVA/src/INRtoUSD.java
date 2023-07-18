@@ -9,7 +9,7 @@ public class INRtoUSD {
         System.out.print("Enter the Amount of Rupees: ");
         float inr = in.nextFloat();
 
-        float usd = (float)(inr/82.05);  //82.05 is the current value of dollars in rupees
+        double usd = inr/82.05;  //82.05 is the current value of dollars in rupees
         System.out.println("You have " + usd + " dollars in your account.");
     }
 }
