@@ -1,7 +1,7 @@
                                                    // Type Casting
 
 /* Type Conversion - When one type of data is assigned to another type of variable.
-*  An Automatic type conversion will take place under some conditions:
+An Automatic type conversion will take place under some conditions:
 *  1. Two Types Should be compatible
 *  2. The Destination type should be larger than source type.
 *
