@@ -7,21 +7,20 @@ public class CS_Ques6_Advance {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter the number: ");
-        int num = in.nextInt();    // Taking the Input of a number
-
-        String val = String.valueOf(num);   // Converting the num into string.
+        String num = in.nextLine();    // Taking the Input of a number
 
 
-        if (val.matches("[01]+")){              // Checking if the number matches with binary number or not
+
+        if (num.matches("[01]+")){              // Checking if the number matches with binary number or not
             System.out.println("It is the binary number and the Radix is 2");
         }
-        else if (val.matches("[0-7]+")) {
-            System.out.println("It is the octagonal number and the Radix is 8");
+        else if (num.matches("[0-7]+")) {
+            System.out.println("It is the octal number and the Radix is 8");
         }
-        else if (val.matches("[0-9A-F]")){
+        else if (num.matches("[0-9A-F]+")){
             System.out.println("It is the Hexadecimal number and the Radix is 16");
         }
-        else if (val.matches("[0-9]+")){
+        else if (num.matches("[0-9]+")){
             System.out.println("It is the decimal number and the Radix is 10");
 
         }
