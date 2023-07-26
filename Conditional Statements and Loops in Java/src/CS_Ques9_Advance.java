@@ -13,6 +13,14 @@ public class CS_Ques9_Advance {
         String protocol = url.substring(0, index);
         System.out.println("Type of Protocol used: " + protocol);
 
+        if(protocol.equals("https")){
+            System.out.println("It is a Hypertext Transfer Protocol Secure.");
+        } else if (protocol.equals("http")) {
+            System.out.println("It is a Hypertext Transfer Protocol");
+        } else if (protocol.equals("ftp")) {
+            System.out.println("It is a file transfer Protocol");
+        }
+
         int lastindex = url.lastIndexOf('.');
         String type = url.substring(lastindex+1,url.length());
         System.out.println("Type of website: " + type);
