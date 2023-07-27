@@ -24,6 +24,5 @@ public class FibonacciNumber {
             System.out.println("No It's not a palindrome");
         }
 
-
     }
 }
