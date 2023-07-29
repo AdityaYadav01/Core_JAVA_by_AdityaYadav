@@ -3,9 +3,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/AdityaYadav01/Core_JAVA_by_AdityaYadav)
 
 
-This Repository contains all types of [**Core JAVA**](https://www.programiz.com/java-programming) questions with solutions using [**JAVA**](https://en.wikipedia.org/wiki/Java_(programming_language)) Programming Language.
-It also includes basics Java questions like [**if-else statements**](https://www.programiz.com/java-programming/if-else-statement), [**Loops**](https://www.programiz.com/java-programming/for-loop), [**Arrays**](https://www.programiz.com/java-programming/arrays), and others.
-
+This repository comprises a comprehensive collection of [**Core Java**](https://www.programiz.com/java-programming) questions, along with their solutions, utilizing the Java programming language. Additionally, it encompasses fundamental Java concepts, such as [**Conditional statements**](https://www.javatpoint.com/conditional-operator-in-java), [**Arrays**](https://www.javatpoint.com/array-in-java), [**Methods**](https://www.javatpoint.com/method-in-java), [**OOPS**](https://www.javatpoint.com/java-oops-concepts), and various other topics.
 
 
 ## Table of Contents
