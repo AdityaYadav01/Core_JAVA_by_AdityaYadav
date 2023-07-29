@@ -12,7 +12,7 @@ It also includes basics Java questions like [**if-else statements**](https://www
 
 - [Basics of Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Basics%20of%20JAVA/src)
 - [Conditional Statements and Loops in Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Conditional%20Statements%20and%20Loops%20in%20Java/src)
-- [Switch Statements](https://github.com/AdityaYadav01/DSA-Using-Java-Aditya-Yadav/tree/master/SwitchStatements)
+- [Strings in Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Strings%20in%20Java/src)
 - [Methods/Functions in Java](https://github.com/AdityaYadav01/DSA_using_Java_AdityaYadav/tree/master/MethodsOrFunctions/src)
 
 
