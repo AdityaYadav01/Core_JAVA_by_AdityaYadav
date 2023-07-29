@@ -15,5 +15,15 @@ public class PatternProblem2 {
             }
             System.out.println();
         }
+
+        // Printing the series of same number in a row. Take Number of input as a row from user.
+
+        for (int i = 1; i <=num ; i++) {
+            for (int j = 1; j <= num ; j++) {
+                System.out.print(i + " ");
+            }
+            System.out.println();
+
+        }
     }
 }
