@@ -21,7 +21,7 @@ public class PatternProblem6 {
                         System.out.print("* ");
                     }
                     else{
-                        System.out.print(" ");
+                        System.out.print("  ");
                     }
 
                 }
