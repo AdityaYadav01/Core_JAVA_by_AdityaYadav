@@ -1,4 +1,4 @@
-/*Print the Below given pattern:
+/* Print the Below given pattern:
 
  *
  * *
