@@ -31,7 +31,6 @@ public class PatternProblem8 {
         for (int i = 2; i <= rows; i++) {
             for (int j = 1; j <= rows - i+1 ; j++) {
                 System.out.print("*"+" ");
-
             }
             System.out.println();
         }
