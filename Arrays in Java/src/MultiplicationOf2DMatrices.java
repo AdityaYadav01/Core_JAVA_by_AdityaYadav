@@ -13,9 +13,7 @@ public class MultiplicationOf2DMatrices {
                 for (int k = 0; k < 3; k++) {
                     mul[i][j]=mul[i][j]+a[i][k]*b[k][j];
                 }
-
             }
-
         }
 
         for (int[] x :mul) {
