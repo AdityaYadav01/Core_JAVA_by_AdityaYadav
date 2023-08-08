@@ -12,6 +12,7 @@ This repository comprises a comprehensive collection of [**Core Java**](https://
 - [Conditional Statements and Loops in Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Conditional%20Statements%20and%20Loops%20in%20Java/src)
 - [Strings in Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Strings%20in%20Java/src)
 - [Arrays in Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Arrays%20in%20Java/src)
+- [Methods in Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Methods%20in%20Java/src)
 
 
 ## Acknowledgements
