@@ -11,20 +11,36 @@ public class Ques5ArmStrongNumber {
 
         boolean res = ArmStrong(num);
         System.out.println(res);
+
+
     }
+
+    static int count(int num){
+        int count = 0;
+        while(num>0){
+            count++;              // Counting the number of digits
+            num /= 10;
+        }
+        return count;
+    }
+
 
     static boolean ArmStrong(int num){
         int sum = 0;
         int temp = num;
+        int numberOfDigits = Ques5ArmStrongNumber.count(num);    // Taking the input of number of digits.
         while(num>0){
             int rem = num%10;
-            sum = sum + (rem*rem*rem);    // This can only be used to check 3 digit numbers.
+
+            sum +=  Math.pow(rem, numberOfDigits);
             num /= 10;
         }
+
         if (temp == sum){
             return true;
         }
 
         return false;
+
     }
 }
