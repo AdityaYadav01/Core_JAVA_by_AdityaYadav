@@ -13,6 +13,7 @@ This repository comprises a comprehensive collection of [**Core Java**](https://
 - [Strings in Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Strings%20in%20Java/src)
 - [Arrays in Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Arrays%20in%20Java/src)
 - [Methods in Java](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/Methods%20in%20Java/src)
+- [OOPs-1](https://github.com/AdityaYadav01/Core_JAVA_by_AdityaYadav/tree/master/OOPS-1/src) - Principle of OOPs 
 
 
 ## Acknowledgements
