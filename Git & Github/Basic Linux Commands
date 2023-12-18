@@ -1,0 +1,38 @@
+                                        Basic Linux Commands
+
+1. ls - ls is used to list down all the files in the current directory/folder.
+2. mkdir - mkdir is used to create a new folder/directory.
+3. ls -a - It is used to list down all the files in the current directory.
+4. cd - It allow the user to move between different directories.
+5. rm - It is used to delete files or directories
+6. rm -r - It is used to delete directory recursively.
+7. rmdir - It is used to remove empty directory.
+8. cat - It is used to display the content of the file.
+9. head and tail 'filename' - It is used to display the first and last part of the file.
+10. chmod - To make a file executable and to change the permissions granted to it in linux.for example: "chmod options filename"
+11. locate - It is used to locate a file in linux.for example: to locate a file containing words "hello" & "this" --- "locate -i *hello * this".
+12. mv(move) source destination - It is used to move or rename files or directories.Example - mv source destination.
+
+                                   Text Editor Commands in Linux
+
+Some of the popular text editor of linux are Nano and Vim/vi
+
+1. vi filename - It is used to open or create a file.
+2. vi - Open a new file to be named later.
+3. vi -r filename - It is used to recover a deleted file.
+4. i/a - To enter into insert mode.
+5. esc - To get back to normal/command mode.
+6. :w - Save changes
+7. :wq or ZZ - Save Changes and Quit
+8. :q - To Quit Vim
+9. :q! - Quit Vim without saving
+10. u - To undo changes
+11. dd - To delete lines in command mode
+12. 5dd - To delete multiple lines
+13. ctrl+r - TO redo last action
+14. /text name - It is used to search a text in command mode.
+15. x - To delete the charater after cursor
+16. yy - To copy the current line.
+17. p - Paste the content after the cursor.
+18. P - Paste the content before cursor.
+
