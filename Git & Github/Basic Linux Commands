@@ -13,6 +13,7 @@
 11. locate - It is used to locate a file in linux.for example: to locate a file containing words "hello" & "this" --- "locate -i *hello * this".
 12. mv(move) source destination - It is used to move or rename files or directories.Example - mv source destination.
 
+
                                    Text Editor Commands in Linux
 
 Some of the popular text editor of linux are Nano and Vim/vi
