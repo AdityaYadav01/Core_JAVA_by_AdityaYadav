@@ -1,0 +1,95 @@
+                                            Basic Git Commands
+
+- GitHub - GitHub is a code hosting platform for version control and collabration. It allow us to collabrate with anyone in the world to work on the same project.
+
+- Version Control - It is a practice of managing and tracking chnages to software code.
+
+- Git - It is a version control system. It is primarily used for source code management.
+
+1. git init - It is used to initialize a git repository.
+
+2. git status - It list down which files are staged, unstaged and untracked.
+
+3. git add file_name - It allow us to add a file to git staging area.
+
+4. git add -A/. - It adds all the unstaged file to staging area.
+
+5. git commit - Commit the staged snapshot. This will launch a text editor prompting you for a commit message.
+
+6. git commit -m "message" - It is shortcut command to create a commit with commit message.
+
+7. git reset HEAD file_name - This command is used to move the file from staging area to the working directory.
+
+8. git log - To review and read history of the repository.
+
+9. git reset "code" - To move the repository to previous commit. Discarding any changes made after that commit.
+
+
+                                        STASH
+
+1. git stash - It will move all the staged and modified file to stash. So, later in the same or in another branch you will be able to bring them back.
+
+2. git stash pop - It will bring back the recent stash from the list, make the appropriate changes to file in a local workspace and then delete that entry from the stash history.
+
+3. git stash clear - remove all the stash entry and may be impossible to recover.
+
+4. git stash list - List down all the stash entry that you currently have.
+
+5. git stash drop - Drop a single stash entry from the list of stash entries.
+
+                                              
+					      GITHUB
+
+1. Connecting Remote Repository to Local Repository - git remote add origin {URL Repository on GitHub}	
+   remote - It means we are working with URLs
+   origin - Name of the URL
+
+2. Show All the URLs which are attached with Local Repository - git remote -v
+
+3. Pushing Local Repository changes to Remote Repository - git push origin "Branch Name"
+
+4. What are Git Branches?
+   Git Branch are effectively a pointer to a snapshot of your changes.
+
+                                               Git Branch
+
+1. git branch/git branch --list - List down all the branches in your repository.
+2. git branch <branch name> - Create a new branch
+3. git branch -d <branch name> - Deleting a specified branch. Git prevent you from deleting a branch if it has unmerged changes.
+4. git branch -D <branch name> - Forced Delete a specified branch. Even if it has a unmerged changes.
+5. git branch -m <branch name> - It is used to rename a branch.
+6. git branch -a - List down all the remote branch
+
+Q. What is HEAD in Git?
+   We can think of the HEAD as the current branch. When we switch branches with Git Checkout, the HEAD revision changes to point to the tip of the new branch.
+
+7. Git Checkout <BranchName> - It is used to navigate between different branches.
+
+                                              Git Push
+
+1. Git push origin <branch name> - Push specified branch from local repository to specified remote branch
+2. Git push origin --all - Push all the branch from local repository to remote.
+
+- Pull Request - It is also referred to merge request. It is an event that took 
+place in software development when contributor/developer is ready to merge the new code changes with the main project repository.
+
+                                              Git Merge
+
+- Git Merge command let us merge the independent line of development with the main branch and integrate them into single branch.
+
+- Before, merging any branch with the main branch. one should check the HEAD position.HEAD should be on the receiving branch.'
+
+Other Concepts of Git are:
+
+1. Fork - A fork is the completely independent copy of a repository that you manage. Fork let you make changes to the project without affecting the original repository.
+
+2. Git Clone <URL> - It create a local copy of a remote repository.
+
+3. Upstream URL - These are the URLs from where we have forked our repository.
+
+4. Downstream URL - When any project that integrates our work with someone else work.
+
+5. Git Fetch - It is a primary command which allow us to download remote repository content to Local Repository. It help us to keep our local repository updated.
+
+6. Git Pull - It is the combination of two commands: git fetch followed by git merge. It is used to fetchand download the content from remote repository and immediately update the local repository to match the content.
+
